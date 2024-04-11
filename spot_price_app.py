@@ -209,6 +209,7 @@ tabs = dbc.Tabs(
 
 
 app = Dash(__name__, external_stylesheets = [dbc.themes.FLATLY, dbc_css])
+app.title = 'Spot price dashboard'
 server = app.server
 
 text = """
