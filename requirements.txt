@@ -1,0 +1,7 @@
+pandas==2.0.3
+openpyxl
+plotly==5.18.0
+dash==2.14.2
+dash-bootstrap-components
+dash-bootstrap-templates
+gunicorn
